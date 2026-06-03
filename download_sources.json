@@ -1,0 +1,80 @@
+{
+  "igs": [
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/IGS0OPSFIN_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz",
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/igs<GPSWD>.sp3.Z",
+    "ftp://nfs.kasi.re.kr/gps/products/<GPSW>/igs<GPSWD>.sp3.Z"
+  ],
+  "igsclk": [
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/IGS0OPSFIN_<YYYY><DOY>0000_01D_05M_CLK.CLK.gz",
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/igs<GPSWD>.clk.Z"
+  ],
+  "whu": [
+    "ftp://igs.gnsswhu.cn/pub/gps/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz"
+  ],
+  "whuclk": [
+    "ftp://igs.gnsswhu.cn/pub/gps/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/WUM0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz"
+  ],
+  "sha": [
+    "ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/products/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_15M_ORB.SP3.gz"
+  ],
+  "shaclk": [
+    "ftp://igs.gnsswhu.cn/pub/gnss/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/products/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/SHA0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz"
+  ],
+  "cod": [
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/products/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/mgex/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz"
+  ],
+  "codclk": [
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/products/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/mgex/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://igs.ign.fr/pub/igs/products/mgex/<GPSW>/COD0MGXFIN_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz"
+  ],
+  "gbm": [
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgex/<GPSW>_IGS20/GBM0MGXRAP_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgex/<GPSW>/GBM0MGXRAP_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://ftp.gfz-potsdam.de/pub/GNSS/products/mgnss/<GPSW>_IGS20/GBM0MGXRAP_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz",
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgnss/<GPSW>/GBM0MGXRAP_<YYYY><DOY>0000_01D_05M_ORB.SP3.gz"
+  ],
+  "gbmclk": [
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgex/<GPSW>_IGS20/GBM0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgex/<GPSW>/GBM0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz",
+    "ftp://ftp.gfz-potsdam.de//pub/GNSS/products/mgnss/<GPSW>/GBM0MGXRAP_<YYYY><DOY>0000_01D_30S_CLK.CLK.gz"
+  ],
+  "brdc": [
+    "ftp://igs.gnsswhu.cn/pub/gps/data/daily/<YEAR>/<DOY>/<YY>p/BRDC00IGS_R_<YEAR><DOY>0000_01D_MN.rnx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/data/daily/<YEAR>/<DOY>/<YY>p/BRDC00IGS_R_<YEAR><DOY>0000_01D_MN.rnx.gz"
+  ],
+  "brdm": [
+    "ftp://igs.gnsswhu.cn/pub/gps/data/daily/<YEAR>/<DOY>/<YY>p/BRDM00DLR_S_<YEAR><DOY>0000_01D_MN.rnx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/data/daily/<YEAR>/<DOY>/<YY>p/BRDM00DLR_S_<YEAR><DOY>0000_01D_MN.rnx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/data/daily/<YEAR>/<DOY>/<YY>p/BRDM00DLR_R_<YEAR><DOY>0000_01D_MN.rnx.gz"
+  ],
+  "snx": [
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/IGS0OPSSNX_<WEEK0YEAR><WEEK0DOY>0000_07D_07D_SOL.SNX.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/<GPSW>/IGS0OPSSNX_<WEEK0YEAR><WEEK0DOY>0000_07D_07D_SOL.SNX.gz",
+    "ftp://igs.gnsswhu.cn/pub/gps/products/<GPSW>/igs<YY>P<GPSW>.snx.Z",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/products/<GPSW>/igs<YY>P<GPSW>.snx.Z"
+    
+  ],
+  "mgex": [
+    "ftp://igs.gnsswhu.cn/pub/gps/data/daily/<YYYY>/<DOY>/<YY>d/<SITE_LONG>_R_<YYYY><DOY>0000_01D_30S_MO.crx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/data/daily/<YYYY>/<DOY>/<YY>d/<SITE_LONG>_R_<YYYY><DOY>0000_01D_30S_MO.crx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gnss/data/daily/<YYYY>/<DOY>/<YY>d/<SITE_LONG>_S_<YYYY><DOY>0000_01D_30S_MO.crx.gz",
+    "--ftp-user anonymous --ftp-password fast@whu.edu.com ftps://gdc.cddis.eosdis.nasa.gov/gps/data/daily/<YYYY>/<DOY>/<YY>d/<SITE_LONG>_R_<YYYY><DOY>0000_01D_30S_MO.crx.gz"
+  ],
+  "igmas": [
+    "--ftp-user=igmaschina_whu --ftp-password=china_igmasftp@whugnss ftp://59.173.238.14/data/iGMAS/GPST/<YYYY>/<DOY>/daily/*.<YY>d.Z"
+  ]
+}
