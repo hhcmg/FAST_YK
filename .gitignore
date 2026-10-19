@@ -1,4 +1,14 @@
 __pycache__/
 *.pyc
 log/*.txt
+log/
+nohup.out*
 .DS_Store
+.netrc
+.urs_cookies
+*.cookies
+.cddis_credentials.json
+.download_credentials.json
+.cddis_credentials.json.*
+.download_credentials.json.*
+* copy
